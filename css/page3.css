@@ -1,0 +1,56 @@
+.details{
+    min-height: 500px;
+}
+.details .tishi{
+    text-align: center;
+    font-size: 12px;
+    line-height: 100px;
+}
+.details .text{
+    /*border: 1px solid #cccccc;*/
+    width: 1000px;
+    min-height: 400px;
+    margin: 30px auto;
+}
+.details .text .title{
+    width: 700px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+.details .main_details{
+   width: 1000px;
+    margin: 0 auto;
+}
+.details .main_details h2{
+    text-align: center;
+    line-height: 60px;
+}
+.details .main_details p.main{
+    line-height: 30px;
+    text-indent:10px;
+    width: 700px;
+}
+.details .main_details .rg{
+    width: 150px;
+    min-height: 180px;
+    background: #ffffff;
+}
+.details .main_details .rg span{
+    display: block;
+    line-height: 30px;
+    font-size: 13px;
+    border-bottom: 1px solid #3d8fff;;
+}
+.details .main_details p.file{
+    font-size: 12px;
+    line-height: 25px;
+    width: 100%;
+}
+.details .main_details p.file a{
+    display: block;
+    width: 100%;
+    height: auto;
+    outline: none;
+}
+

@@ -1,0 +1,170 @@
+body, ul, ol, li, p, div, h1, h2, h3, h4, h5, h6, img, a,dl,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Helvetica Neue", "Helvetica", "Arial", "sans-serif"'; }
+
+#content {
+  background: #fafafa; }
+.clear:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+img{
+  border:none ;
+}
+.lf{
+  float: left;
+}
+.rg{
+  float: right;
+}
+/*# sourceMappingURL=public.css.map */
+.header{
+  width: 100%;
+    position: relative;
+}
+.header .schoolImg{
+    width: 100%;
+    height: auto;
+    font-size: 0;
+}
+.header .schoolImg img{
+    width: 100%;
+}
+.header .logo{
+    padding: 10px;
+  height: 59px;
+  width: 100%;
+    position: absolute;
+    left: 0;
+    top:23px;
+   background: url("../img/opcity.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.header .logo img{
+  width: 100%;
+}
+.header .logo .logoImg{
+  width: 57px;
+  height: auto;
+  font-size: 0;
+    margin-top: 10px;
+}
+.header .logo .textImg{
+ width: 365px;
+  height: 43px;
+  font-size: 0;
+    margin-top: 5px;
+    margin-left: -19px;
+}
+.header .logo .userImg{
+ width: 20px;
+  height: 20px;
+  font-size: 0;
+    position: absolute;
+    left:0;
+    top:-2px;
+}
+.logowarp{
+  width: 730px;
+   height: 100%;
+    position: absolute;
+    top:0;
+    box-sizing: border-box;
+    padding-left:66px;
+}
+.header .logo .title{
+ color: #3d8fff;
+  font-weight: 800;
+  padding-left: 25px;
+  font-size: 20px;
+    padding-top: 20px;
+    margin-left: -36px;
+}
+.header .logo .user{
+  padding-left: 29px;
+  cursor: pointer;
+    position: absolute;
+    right: 0;
+    width: 250px;
+    top:22px;
+}
+.header .logo .user span{
+  display: inline-block;
+  color: #3d8fff;
+  font-size: 13px;
+  font-weight: bold;
+}
+.header .nav{
+  width: 100%;
+    height: 43px;
+  background: #3d8fff;
+}
+.header .nav ul{
+  width: 1123px;
+  margin: 0 auto;
+  height: 43px;
+  background: #3d8fff;
+  min-width: 1123px;
+    text-align: justify;
+}
+.header .nav ul li{
+  display: inline-block;
+  line-height:43px;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+}
+.header .nav ul li:hover{
+    background: #1e7bfa;
+}
+.header .nav ul li dl{
+    position:absolute;
+    left:0;
+    color: #ffffff;
+    width: 100%;
+    background: #3d8fff;;
+    z-index: 100;
+    line-height: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+.header .nav ul li dl dd{
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.header .nav ul li dl dd:hover{
+    background: #1e7bfa;
+}
+.header .nav ul:after{
+  content: '';
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+}
+.footer{
+  background: #fafafa;
+  text-align: center;
+  font-size: 12px;
+  color: #212121;
+  padding: 30px 0;
+}
+.footer p{
+  padding-bottom: 15px;
+}
+
